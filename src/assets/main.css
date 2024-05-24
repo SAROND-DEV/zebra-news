@@ -1,1 +1,25 @@
 @import './reset.css';
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.tag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 28px;
+  padding: 4px 16px;
+  border-radius: 360px;
+  background-color: #f0f6fe;
+  font-size: 0.875rem;
+  color: #00133a;
+}
